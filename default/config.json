@@ -1,0 +1,18 @@
+{
+	"startTitle" : "啪啪啪",
+	"startIntro" : "来啪啪啪你的女神吧",
+
+	"endTitle" : "你输了",
+
+	"correctObject" : [
+		{
+			"imgUntouch" : "default/object/1/untouch.jpg",
+			"imgTouched" : "default/object/1/touched.jpg",
+			"audio" : "default/object/1/touched.mp3"
+		}
+	],
+	"errorObject" : {
+		"img"  : "default/object/error/img.jpg",
+		"audio": "default/object/error/touched.mp3"
+	}
+}

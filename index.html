@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyGame</title>
+	<meta charset="utf-8">
+	<link href="game.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+</head>
+<body>
+	<div id="selectSkin">
+		<strong><p>选择你喜欢的皮肤</p></strong>
+		<select></select><br />
+		<a href="#" class="button" id="selectSkinBtn">确定</a>
+	</div>
+	<div id="start">
+		<div id="setting">
+			<a id="selectSkinLink" href="#">皮肤</a>
+			<a id="isPlayAudio" href="#"></a>
+		</div>
+		<strong><p id="startTitle"></p></strong>
+		<p id="startIntro"></p>
+		<a href="#" class="button" id="normalStartBtn">普通模式</a>
+		<a href="#" class="button" id="endlessStartBtn">两分钟真男人</a>
+	</div>
+	<div id="game">
+		<canvas id="gameCanvas"></canvas>
+	</div>
+	<div id="end">
+		<strong><p id="endTitle"></p></strong>
+		<p>你的得分为: <span id="endScore"></span></p>
+		<a href="#" class="button" id="playAgainBtn">再玩一遍</a>
+		<a href="#" class="button" id="returnBtn">返回主菜单</a>
+	</div>
+</body>
