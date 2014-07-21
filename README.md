@@ -1,8 +1,10 @@
-Do not touch!
+#别碰
 
-A free game likes "Don't Tap The White Tile" based on HTML5,Canvas.
+基于`HTML5`, `Canvas`开发的小游戏，仿照了风靡一时的手机游戏”别踩白块儿“
 
-In this game, I provided extra model called "XXX seconds means true man" and changeable skins.You can use your own images and sound effects instead of black tiles and piano sound.
++ 添加了 **换肤** 功能，你可以用自己喜欢的图片代替黑块，用自己喜欢的音效代替默认的钢琴声
+
++ 添加了 **XX秒真男人** 模式，要求在XX秒内连续游戏，点错了不会退出游戏，而是会扣去相应的分数
 
 Enjoy it!
 
